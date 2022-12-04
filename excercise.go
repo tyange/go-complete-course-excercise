@@ -19,4 +19,11 @@ func main() {
 	currentYear = currentYear + 1
 	age = currentYear - birthYear
 	fmt.Println(age)
+
+	var firstRune rune = '&'
+	fmt.Println(firstRune)
+	fmt.Println(string(firstRune))
+
+	var firstByte byte = 'a'
+	fmt.Println(firstByte)
 }
